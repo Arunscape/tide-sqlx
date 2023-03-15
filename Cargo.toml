@@ -1,6 +1,6 @@
 [package]
 name = "tide-sqlx"
-version = "0.6.1"
+version = "0.6.2"
 authors = [
     "Jeremiah Senkpiel <fishrock123@rocketmail.com>",
     "Chris Dickinson <christopher.s.dickinson@gmail.com>",
@@ -38,7 +38,7 @@ rustls = ["sqlx/runtime-async-std-rustls"]
 
 [dependencies]
 async-std = "1"
-sqlx = "0.5"
+sqlx = "0.6.2"
 
 [dependencies.tracing_crate]
 version = "0.1"
